@@ -8,17 +8,17 @@ const features = [
   {
     name: 'Build faster',
     description:
-      'Get up and running in no time with pre-configured settings and best practices. Say goodbye to setup and focus on what truly matters - building your application.',
+      'Get up and running in no time with pre-configured AI automation settings. Say goodbye to tedious setup and focus on what truly matters – growing your business.',
     icon: Computer,
   },
   {
     name: 'Focus on business logic',
-    description: 'Concentrate on solving business problems instead of dealing with the repetitive setup.',
+    description: 'Concentrate on solving real business challenges while AI handles the repetitive tasks.',
     icon: FaBusinessTime,
   },
   {
     name: 'Ready for scale',
-    description: 'Prepare for growth from day one. With built-in optimizations and scalable architecture, your application will be ready to handle increased traffic and complexity.',
+    description: 'Future-proof your business with AI-driven optimizations and scalable infrastructure.',
     icon: Network,
   },
 ]
@@ -40,15 +40,15 @@ export default function SideBySide() {
               <div className="mb-6 w-fit rounded-full border border-blue-200 dark:border-blue-900 bg-blue-50 dark:bg-blue-900/30 px-4 py-1">
                 <div className="flex items-center gap-2 text-sm font-medium text-blue-900 dark:text-blue-200">
                   <Sparkles className="h-4 w-4" />
-                  <span>Why Choose Next Starter</span>
+                  <span>Why Choose NovaFlow</span>
                 </div>
               </div>
 
               <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-900 via-blue-800 to-gray-900 dark:from-white dark:via-blue-300 dark:to-white pb-2">
-                A Faster Path to Production
+                Less friction on your bussiness
               </h2>
               <p className="mt-6 text-lg text-gray-600 dark:text-gray-300">
-                Accelerate your development with our powerful Next.js starter kit. Focus on building features, not infrastructure.
+                Our team specializes in identifying business processes that can be optimized with AI and delivering custom automation solutions that drive efficiency.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature, index) => (

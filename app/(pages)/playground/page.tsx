@@ -144,7 +144,7 @@ export default function PlaygroundPage() {
             </Badge>
           </div>
           <div className="flex items-center gap-2">
-            <ModeToggle />
+            {/* <ModeToggle /> */}
             <Button
               size="sm"
               variant="outline"
@@ -327,14 +327,14 @@ export default function PlaygroundPage() {
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="openai:gpt-4o">gpt-4o</SelectItem>
+                      {/* <SelectItem value="openai:gpt-4o">gpt-4o</SelectItem>
                       <SelectItem value="openai:gpt-4">gpt-4</SelectItem>
                       <SelectItem value="openai:gpt-3.5-turbo">
                         gpt-3.5 turbo
                       </SelectItem>
                       <SelectItem value="openai:gpt-4-turbo">
                         gpt-4 turbo
-                      </SelectItem>
+                      </SelectItem> */}
                       <SelectItem value="deepseek:deepseek-chat">
                         deepseek chat
                       </SelectItem>
