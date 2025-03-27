@@ -67,8 +67,8 @@ export default function HeroSection() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 via-blue-800 to-gray-900 dark:from-white dark:via-blue-300 dark:to-white animate-gradient-x pb-2"
         >
-          AI-Driven Automation, Tailored for  <br className="hidden sm:block" />
-          Your Business
+          Transform Your Business with <br className="hidden sm:block" />
+          Intelligent AI Agents
         </motion.h1>
 
         {/* Subtitle */}
@@ -78,7 +78,17 @@ export default function HeroSection() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto"
         >
-         Discover inefficiencies, automate workflows, and scale with AI-powered solutions built just for you.
+         NovaFlow provides specialized AI agent solutions that automate repetitive processes, optimize workflows, and significantly reduce operational costs.
+        </motion.p>
+
+        {/* Subtitle */}
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto"
+        >
+         Automate customer support, streamline lead generation, and eliminate manual data analysis with our customized AI agents.
         </motion.p>
 
         {/* CTA Buttons */}
