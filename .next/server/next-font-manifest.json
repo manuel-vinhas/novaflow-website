@@ -3,7 +3,34 @@
     "[project]/app/page": [
       "static/media/Geist_Variable-s.p.781b491f.woff2"
     ],
+    "[project]/app/(pages)/pricing/page": [
+      "static/media/Geist_Variable-s.p.781b491f.woff2"
+    ],
     "[project]/app/_not-found/page": [
+      "static/media/Geist_Variable-s.p.781b491f.woff2"
+    ],
+    "[project]/app/case-studies/customer-support/page": [
+      "static/media/Geist_Variable-s.p.781b491f.woff2"
+    ],
+    "[project]/app/case-studies/lead-generation/page": [
+      "static/media/Geist_Variable-s.p.781b491f.woff2"
+    ],
+    "[project]/app/case-studies/data-analysis/page": [
+      "static/media/Geist_Variable-s.p.781b491f.woff2"
+    ],
+    "[project]/app/solutions/custom-ai/page": [
+      "static/media/Geist_Variable-s.p.781b491f.woff2"
+    ],
+    "[project]/app/solutions/efficiency/page": [
+      "static/media/Geist_Variable-s.p.781b491f.woff2"
+    ],
+    "[project]/app/solutions/process-optimization/page": [
+      "static/media/Geist_Variable-s.p.781b491f.woff2"
+    ],
+    "[project]/app/solutions/scalability/page": [
+      "static/media/Geist_Variable-s.p.781b491f.woff2"
+    ],
+    "[project]/app/process/page": [
       "static/media/Geist_Variable-s.p.781b491f.woff2"
     ]
   },
