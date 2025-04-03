@@ -232,7 +232,8 @@ if ("TURBOPACK compile-time truthy", 1) {
         // It needs to be weak because we do this even for roots that failed to mount.
         // If there is no WeakMap, we won't attempt to do retrying.
         // $FlowIssue
-        var rootElements = typeof WeakMap === 'function' ? new WeakMap() : null;
+        var rootElements = // $FlowIssue
+        typeof WeakMap === 'function' ? new WeakMap() : null;
         var isPerformingRefresh = false;
         function computeFullKey(signature) {
             if (signature.fullKey !== null) {
@@ -918,7 +919,7 @@ exports.default = {
     shouldInvalidateReactRefreshBoundary: shouldInvalidateReactRefreshBoundary,
     getRefreshBoundarySignature: getRefreshBoundarySignature,
     scheduleUpdate: scheduleUpdate
-}; //# sourceMappingURL=helpers.js.map
+};
 }}),
 "[project]/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/runtime.js [client] (ecmascript)": (function(__turbopack_context__) {
 
@@ -953,7 +954,7 @@ self.$RefreshInterceptModuleExecution$ = function(webpackModuleId) {
         self.$RefreshReg$ = prevRefreshReg;
         self.$RefreshSig$ = prevRefreshSig;
     };
-}; //# sourceMappingURL=runtime.js.map
+};
 }}),
 "[project]/node_modules/next/dist/build/polyfills/polyfill-module.js [client] (ecmascript)": (function(__turbopack_context__) {
 

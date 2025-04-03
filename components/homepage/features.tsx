@@ -122,7 +122,7 @@ export default function Features() {
                   ))}
                 </ul>
 
-                <div className="mt-6 pt-4 border-t border-gray-100 dark:border-gray-700">
+                {/* <div className="mt-6 pt-4 border-t border-gray-100 dark:border-gray-700">
                   <Link
                     href={feature.link}
                     className={`text-sm font-medium ${iconColors[feature.color]} flex items-center`}
@@ -132,7 +132,7 @@ export default function Features() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </Link>
-                </div>
+                </div> */}
               </motion.div>
             )
           })}

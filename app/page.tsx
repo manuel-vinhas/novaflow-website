@@ -1,3 +1,4 @@
+"use client"
 import { AccordionComponent } from "@/components/homepage/accordion-component";
 import HeroSection from "@/components/homepage/hero-section";
 import ValueProposition from "@/components/homepage/value-proposition";
@@ -11,8 +12,27 @@ import UseCases from "@/components/homepage/use-cases";
 import Features from "@/components/homepage/features";
 import Testimonials from "@/components/homepage/testimonials";
 import AboutUs from "@/components/homepage/about-us";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    // ✅ Create and append the script dynamically
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = 'https://1052-188-83-30-32.ngrok-free.app/my-chat-frontend.css';
+    document.head.appendChild(link);
+
+    const script = document.createElement("script");
+    script.src = "https://1052-188-83-30-32.ngrok-free.app/";
+    script.dataset.clientName = "Novaflow"; // ✅ Set the custom attribute
+    script.async = true;
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script); // ✅ Cleanup to avoid duplicate script loading
+    };
+  }, []);
   return (
     <PageWrapper>
       <BotPressChat/>
@@ -24,8 +44,8 @@ export default function Home() {
       <SideBySide />
       <UseCases />
       <Features />
-      <Testimonials />
-      <AboutUs />
+      {/* <Testimonials /> */}
+      {/* <AboutUs /> */}
       {/*<MarketingCards />*/}
       {/*<Pricing />*/}
       <AccordionComponent />

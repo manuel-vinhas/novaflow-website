@@ -103,12 +103,12 @@ export default function HeroSection() {
               size="lg"
               className="bg-blue-600 hover:bg-blue-500 text-white rounded-full px-8 h-12"
             >
-              Get a Free AI Assessment
+              Chat with our AI assistant now
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </Link>
 
-          <Link
+          {/* <Link
             href="https://discord.gg/HUcHdrrDgY"
             target="_blank"
             aria-label="Join Discord (opens in a new tab)"
@@ -131,7 +131,7 @@ export default function HeroSection() {
           >
             <Github className="w-5 h-5" aria-hidden="true" />
             <span>Star on GitHub</span>
-          </Link>
+          </Link> */}
           
 
         </motion.div>

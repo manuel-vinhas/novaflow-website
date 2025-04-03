@@ -100,7 +100,7 @@ export default function UseCases() {
                   </div>
                 </div>
                 
-                <div className="mt-6 pt-4 border-t border-gray-100 dark:border-gray-800">
+                {/* <div className="mt-6 pt-4 border-t border-gray-100 dark:border-gray-800">
                   <Link
                     href={useCase.link}
                     className={`text-sm font-medium ${iconColors[useCase.color]} flex items-center`}
@@ -110,7 +110,7 @@ export default function UseCases() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </Link>
-                </div>
+                </div> */}
               </motion.div>
             )
           })}

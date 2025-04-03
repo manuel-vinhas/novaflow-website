@@ -135,12 +135,12 @@ export default function ValueProposition() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Link 
+              {/* <Link 
                 href="/process" 
                 className="bg-white text-blue-600 px-6 py-2 rounded-lg font-medium flex items-center gap-2"
               >
                 Learn Our Process <ArrowUpRight className="h-4 w-4" />
-              </Link>
+              </Link> */}
             </motion.div>
           </div>
         </motion.div>
