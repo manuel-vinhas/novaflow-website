@@ -145,7 +145,7 @@ export default function DataAnalysisPage() {
               Key Capabilities
             </h2>
             <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-              NovaFlow's Data Intelligence Suite transforms how you understand and utilize your data
+              NovaFlow&apos;s Data Intelligence Suite transforms how you understand and utilize your data
             </p>
           </motion.div>
 
@@ -402,7 +402,7 @@ export default function DataAnalysisPage() {
               <Sparkles className="h-10 w-10 mb-6" />
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Turn Your Data into Actionable Intelligence</h2>
               <p className="text-xl mb-8">
-                Discover insights that drive business growth, cost savings, and competitive advantage with NovaFlow's Data Intelligence Suite.
+                Discover insights that drive business growth, cost savings, and competitive advantage with NovaFlow&apos;s Data Intelligence Suite.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" variant="default" className="bg-white text-blue-600 hover:bg-gray-100 rounded-md">

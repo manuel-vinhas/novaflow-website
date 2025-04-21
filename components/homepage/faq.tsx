@@ -15,7 +15,7 @@ export function FAQ() {
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-                <AccordionTrigger>What industries can benefit from NovaFlow's solutions?</AccordionTrigger>
+                <AccordionTrigger>What industries can benefit from NovaFlow&apos;s solutions?</AccordionTrigger>
                 <AccordionContent>
                 NovaFlow serves multiple sectors including financial services, healthcare, manufacturing, retail, and customer service. Any organization with repetitive processes or data analysis needs can benefit from our AI solutions.
                 </AccordionContent>

@@ -3,8 +3,22 @@ import { LightbulbIcon, TrendingUpIcon, BarChartIcon } from 'lucide-react'
 import { motion } from "motion/react"
 import Link from 'next/link'
 
+// Define color type to restrict possible values
+type UseCaseColor = 'blue' | 'purple' | 'indigo';
+
+// Define use case type
+type UseCase = {
+  icon: React.ElementType;
+  title: string;
+  challenge: string;
+  solution: string;
+  result: string;
+  color: UseCaseColor;
+  link: string;
+};
+
 // Define the case studies from the mockup
-const useCases = [
+const useCases: UseCase[] = [
   {
     icon: LightbulbIcon,
     title: "Customer Support",
@@ -38,7 +52,7 @@ export default function UseCases() {
   return (
     <section className="py-24 bg-white dark:bg-gray-900">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -60,7 +74,7 @@ export default function UseCases() {
               purple: "bg-purple-50 border-purple-200 dark:bg-purple-900/10 dark:border-purple-800",
               indigo: "bg-indigo-50 border-indigo-200 dark:bg-indigo-900/10 dark:border-indigo-800"
             };
-            
+
             const iconColors = {
               blue: "text-blue-600 dark:text-blue-400",
               purple: "text-purple-600 dark:text-purple-400",
@@ -82,25 +96,25 @@ export default function UseCases() {
                   </div>
                   <h3 className="text-xl font-semibold ml-3 text-gray-900 dark:text-white">{useCase.title}</h3>
                 </div>
-                
+
                 <div className="space-y-4 flex-grow">
                   <div>
                     <p className="text-sm font-semibold text-gray-700 dark:text-gray-300">Challenge:</p>
                     <p className="text-gray-600 dark:text-gray-400">{useCase.challenge}</p>
                   </div>
-                  
+
                   <div>
                     <p className="text-sm font-semibold text-gray-700 dark:text-gray-300">Solution:</p>
                     <p className="text-gray-600 dark:text-gray-400">{useCase.solution}</p>
                   </div>
-                  
+
                   <div>
                     <p className="text-sm font-semibold text-gray-700 dark:text-gray-300">Result:</p>
                     <p className="text-gray-600 dark:text-gray-400 font-medium">{useCase.result}</p>
                   </div>
                 </div>
-                
-                {/* <div className="mt-6 pt-4 border-t border-gray-100 dark:border-gray-800">
+
+                <div className="mt-6 pt-4 border-t border-gray-100 dark:border-gray-800">
                   <Link
                     href={useCase.link}
                     className={`text-sm font-medium ${iconColors[useCase.color]} flex items-center`}
@@ -110,7 +124,7 @@ export default function UseCases() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </Link>
-                </div> */}
+                </div>
               </motion.div>
             )
           })}

@@ -135,7 +135,7 @@ export default function CostTimeEfficiencyPage() {
               <div className="space-y-6">
                 <h3 className="text-2xl font-bold mb-6">Calculate Your ROI</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Fill out the form to see your estimated monthly and annual savings with NovaFlow's AI solutions.
+                  Fill out the form to see your estimated monthly and annual savings with NovaFlow&apos;s AI solutions.
                 </p>
                 <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg mb-6">
                   <div className="flex items-center gap-2 text-gray-600 dark:text-gray-300">
@@ -209,7 +209,7 @@ export default function CostTimeEfficiencyPage() {
               Key Efficiency Benefits
             </h2>
             <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-              NovaFlow's AI solutions deliver measurable improvements across all aspects of your operations
+              NovaFlow&apos;s AI solutions deliver measurable improvements across all aspects of your operations
             </p>
           </motion.div>
 
@@ -354,7 +354,7 @@ export default function CostTimeEfficiencyPage() {
               <Sparkles className="h-10 w-10 mb-6" />
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Operational Efficiency?</h2>
               <p className="text-xl mb-8">
-                Join hundreds of businesses that have significantly reduced costs and saved time with NovaFlow's AI solutions.
+                Join hundreds of businesses that have significantly reduced costs and saved time with NovaFlow&apos;s AI solutions.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" variant="default" className="bg-white text-blue-600 hover:bg-gray-100 rounded-md">

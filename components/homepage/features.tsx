@@ -2,8 +2,21 @@
 import { MessageSquare, Mic, BarChart3, Settings } from 'lucide-react'
 import { motion } from "motion/react"
 import Link from 'next/link'
+
+// Define the color type to restrict possible values
+type FeatureColor = 'blue' | 'indigo' | 'purple' | 'emerald';
+
+// Define the feature type
+type Feature = {
+  icon: React.ElementType;
+  title: string;
+  capabilities: string[];
+  color: FeatureColor;
+  link: string;
+};
+
 // Define the features from the mockup with "Custom Solutions" replacing "NovaFlow Platform"
-const features = [
+const features: Feature[] = [
   {
     icon: MessageSquare,
     title: "NovaFlow Chat AI",
@@ -15,7 +28,7 @@ const features = [
       "Seamless human handoff when needed"
     ],
     color: "blue",
-    link: "/solutions/chat-ai" // Add this line with appropriate URL
+    link: "/solutions/chat-ai"
   },
   {
     icon: Mic,
@@ -28,7 +41,7 @@ const features = [
       "Integration with CRM and sales platforms"
     ],
     color: "indigo",
-    link: "/solutions/voice-ai" // Add this line with appropriate URL
+    link: "/solutions/voice-ai"
   },
   {
     icon: BarChart3,
@@ -41,7 +54,7 @@ const features = [
       "Trend identification and forecasting"
     ],
     color: "purple",
-    link: "/solutions/data-intelligence" // Add this line with appropriate URL
+    link: "/solutions/data-intelligence"
   },
   {
     icon: Settings,
@@ -54,7 +67,7 @@ const features = [
       "Bespoke analytics and reporting dashboards"
     ],
     color: "emerald",
-    link: "/solutions/custom" // Add this line with appropriate URL
+    link: "/solutions/custom"
   }
 ]
 
@@ -122,7 +135,7 @@ export default function Features() {
                   ))}
                 </ul>
 
-                {/* <div className="mt-6 pt-4 border-t border-gray-100 dark:border-gray-700">
+                <div className="mt-6 pt-4 border-t border-gray-100 dark:border-gray-700">
                   <Link
                     href={feature.link}
                     className={`text-sm font-medium ${iconColors[feature.color]} flex items-center`}
@@ -132,7 +145,7 @@ export default function Features() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </Link>
-                </div> */}
+                </div>
               </motion.div>
             )
           })}

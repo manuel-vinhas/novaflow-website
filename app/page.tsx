@@ -19,11 +19,11 @@ export default function Home() {
     // ✅ Create and append the script dynamically
     const link = document.createElement("link");
     link.rel = "stylesheet";
-    link.href = 'https://1052-188-83-30-32.ngrok-free.app/my-chat-frontend.css';
+    link.href = 'http://localhost:3002/my-chat-frontend.css';
     document.head.appendChild(link);
 
     const script = document.createElement("script");
-    script.src = "https://1052-188-83-30-32.ngrok-free.app/";
+    script.src = "http://localhost:3002/";
     script.dataset.clientName = "Novaflow"; // ✅ Set the custom attribute
     script.async = true;
 

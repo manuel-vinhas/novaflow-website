@@ -50,7 +50,7 @@ export default function Footer() {
                             <span className="font-semibold">NOVAFLOW</span>
                         </Link>
                         <p className="text-sm text-gray-600 dark:text-gray-400 max-w-sm">
-                            Transform your business operations with NovaFlow's intelligent AI agents. Custom solutions for efficiency, automation, and growth.
+                            Transform your business operations with NovaFlow&apos;s intelligent AI agents. Custom solutions for efficiency, automation, and growth.
                         </p>
                         {/* <div className="flex space-x-4">
                             <Link href="https://github.com/michaelshimeles/nextjs14-starter-template" target="_blank">

@@ -85,7 +85,7 @@ export default function ProcessOptimizationPage() {
               Key Benefits
             </h2>
             <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-              Transform your operations with NovaFlow's process optimization solutions
+              Transform your operations with NovaFlow&apos;s process optimization solutions
             </p>
           </motion.div>
 

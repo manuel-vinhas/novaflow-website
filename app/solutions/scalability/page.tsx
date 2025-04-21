@@ -165,7 +165,7 @@ export default function ScalableFutureProofPage() {
                 Designed for Infinite Scale
               </h2>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-                NovaFlow's AI solutions are built to scale seamlessly with your business needs, from startup to enterprise level, with no performance degradation.
+                NovaFlow&apos;s AI solutions are built to scale seamlessly with your business needs, from startup to enterprise level, with no performance degradation.
               </p>
               <div className="space-y-4 mb-8">
                 {scalabilityPoints.map((point, index) => (

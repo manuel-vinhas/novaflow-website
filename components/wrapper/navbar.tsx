@@ -181,17 +181,17 @@ export default function NavBar() {
           {/* <Link href="/dashboard" prefetch={true}>
             <Button variant="ghost">Dashboard</Button>
           </Link> */}
-          <Link href="/playground" prefetch={true}>
+          {/* <Link href="/playground" prefetch={true}>
             <Button variant="ghost">AI Playground</Button>
           </Link>
           <Link
             href="https://github.com/michaelshimeles/nextjs14-starter-template"
             prefetch={true}
-          >
+          > */}
             {/* <Button variant="ghost" size="icon">
               <Github className="h-5 w-5" />
             </Button> */}
-          </Link>
+          {/* </Link> */}
         </div>
 
         {/* Right Side */}

@@ -184,7 +184,7 @@ export default function CustomerSupportCaseStudy() {
                 <CardContent className="p-6">
                   <Quote className="h-8 w-8 text-blue-500 mb-4" />
                   <blockquote className="text-lg italic mb-6">
-                    "Our customer support team was overwhelmed. Response times were increasing, costs were skyrocketing, and customer satisfaction was declining. We needed a solution that could scale with our global growth."
+                    &quot;Our customer support team was overwhelmed. Response times were increasing, costs were skyrocketing, and customer satisfaction was declining. We needed a solution that could scale with our global growth. &quot;
                   </blockquote>
                   <div className="flex items-center">
                     <div className="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center mr-4">
@@ -284,7 +284,7 @@ export default function CustomerSupportCaseStudy() {
                       </div>
                       <div className="flex">
                         <div className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-lg py-2 px-3 max-w-[80%]">
-                          <p className="text-sm">I'd be happy to help you change the delivery address for order #GT78901. I can see that this order hasn't been shipped yet, so we can still update the address. Could you please provide the new delivery address?</p>
+                          <p className="text-sm">I&apos;d be happy to help you change the delivery address for order #GT78901. I can see that this order hasn&apos;t been shipped yet, so we can still update the address. Could you please provide the new delivery address?</p>
                         </div>
                       </div>
                       <div className="flex justify-end">
@@ -294,9 +294,9 @@ export default function CustomerSupportCaseStudy() {
                       </div>
                       <div className="flex">
                         <div className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-lg py-2 px-3 max-w-[80%]">
-                          <p className="text-sm">Thank you. I've updated the delivery address for order #GT78901 to:</p>
+                          <p className="text-sm">Thank you. I&apos;ve updated the delivery address for order #GT78901 to:</p>
                           <p className="text-sm mt-2">123 New Street, Apartment 4B<br/>New York, NY 10001</p>
-                          <p className="text-sm mt-2">You'll receive a confirmation email shortly. The expected delivery date remains June 3rd. Is there anything else I can help you with today?</p>
+                          <p className="text-sm mt-2">You&apos;ll receive a confirmation email shortly. The expected delivery date remains June 3rd. Is there anything else I can help you with today?</p>
                         </div>
                       </div>
                     </div>
@@ -599,7 +599,7 @@ export default function CustomerSupportCaseStudy() {
             <div className="relative z-10">
               <Quote className="h-16 w-16 mx-auto mb-6 opacity-20" />
               <blockquote className="text-2xl md:text-3xl font-medium italic text-center mb-8 max-w-3xl mx-auto">
-                "NovaFlow's AI chat solution transformed our customer support from a bottleneck to a competitive advantage. We've reduced costs while dramatically improving customer satisfaction and our team's morale."
+              &quot;NovaFlow&apos;s AI chat solution transformed our customer support from a bottleneck to a competitive advantage. We&apos;ve reduced costs while dramatically improving customer satisfaction and our team&apos;s morale.&quot;
               </blockquote>
               <div className="flex flex-col items-center">
                 <div className="w-16 h-16 bg-white/20 rounded-full mb-4 flex items-center justify-center">
@@ -668,7 +668,7 @@ export default function CustomerSupportCaseStudy() {
               <Sparkles className="h-8 w-8 text-blue-600 dark:text-blue-400 mb-4" />
               <h3 className="text-xl font-bold mb-6">Free ROI Assessment</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Get a personalized analysis of the potential impact NovaFlow's AI support solutions could have on your business.
+                Get a personalized analysis of the potential impact NovaFlow&apos;s AI support solutions could have on your business.
               </p>
               <div className="space-y-4 mb-6">
                 <div className="p-4 bg-gray-50 dark:bg-gray-900 rounded-lg">

@@ -43,7 +43,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider dynamic>
+    {/* <ClerkProvider dynamic>
       <html lang="en" suppressHydrationWarning>
         <body className={GeistSans.className}>
           <Provider>
@@ -60,6 +60,6 @@ export default function RootLayout({
           <Analytics />
         </body>
       </html>
-    </ClerkProvider>
+    </ClerkProvider> */}
   );
 }

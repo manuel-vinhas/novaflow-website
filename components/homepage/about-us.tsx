@@ -69,7 +69,7 @@ const AboutUs = () => {
               <h3 className="text-2xl font-bold text-gray-800">Our Team</h3>
             </div>
             <p className="text-gray-700 leading-relaxed mb-8">
-              Our professionals bring decades of combined experience in AI development, machine learning optimization, and enterprise software integration. We're passionate about helping businesses leverage the latest advancements in AI technology.
+              Our professionals bring decades of combined experience in AI development, machine learning optimization, and enterprise software integration. We&apos;re passionate about helping businesses leverage the latest advancements in AI technology.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

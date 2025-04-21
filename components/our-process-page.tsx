@@ -236,7 +236,7 @@ export default function ProcessPage() {
                     <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                       <h5 className="font-semibold mb-3">Case Example:</h5>
                       <p className="text-gray-600 dark:text-gray-300 text-sm italic">
-                        "{step.caseExample}"
+                      &quot;{step.caseExample} &quot;
                       </p>
                     </div>
                   </div>
@@ -267,7 +267,7 @@ export default function ProcessPage() {
               Project Timeline
             </h2>
             <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-              A typical implementation timeline for NovaFlow's AI solutions
+              A typical implementation timeline for NovaFlow&apos;s AI solutions
             </p>
           </motion.div>
 
@@ -338,7 +338,7 @@ export default function ProcessPage() {
                 <div>
                   <h5 className="font-semibold">Timeline Note:</h5>
                   <p className="text-gray-600 dark:text-gray-300 text-sm">
-                    This represents an average timeline for a mid-sized implementation. Actual timelines may vary based on project complexity, scope, and your organization's specific requirements. Our team will provide a customized timeline during the initial consultation.
+                    This represents an average timeline for a mid-sized implementation. Actual timelines may vary based on project complexity, scope, and your organization&apos;s specific requirements. Our team will provide a customized timeline during the initial consultation.
                   </p>
                 </div>
               </div>
@@ -374,7 +374,7 @@ export default function ProcessPage() {
             >
               <h3 className="text-2xl font-bold mb-6">Your Implementation Team</h3>
               <p className="text-gray-700 dark:text-gray-300 mb-6">
-                At NovaFlow, we believe successful AI implementation requires close collaboration between our experts and your team members. Here's how we work together:
+                At NovaFlow, we believe successful AI implementation requires close collaboration between our experts and your team members. Here&apos;s how we work together:
               </p>
               
               <div className="space-y-6">
@@ -536,7 +536,7 @@ export default function ProcessPage() {
               <Sparkles className="h-10 w-10 mb-6" />
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Begin Your AI Journey?</h2>
               <p className="text-xl mb-8">
-                Let's start with a consultation to understand your needs and explore how our AI solutions can transform your business.
+                Let&apos;s start with a consultation to understand your needs and explore how our AI solutions can transform your business.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" variant="default" className="bg-white text-blue-600 hover:bg-gray-100 rounded-md">
@@ -668,12 +668,12 @@ const processSteps = [
         title: "Scalability Planning",
         description: "Ensuring the solution can grow with your business needs over time."
       },
-      {
+      /* {
         icon: <Shield className="h-5 w-5 text-red-600" />,
         iconBg: "bg-red-100 dark:bg-red-900/30",
         title: "Security Framework",
         description: "Building in robust data protection and access controls from the start."
-      },
+      }, */
       {
         icon: <Users className="h-5 w-5 text-green-600" />,
         iconBg: "bg-green-100 dark:bg-green-900/30",

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/afonsocarvalho/Documents/code_Projects/AI%20AGENCY%20WEBSITE/nextjs-starter-kit/app/provider.tsx"],"sourcesContent":["\"use client\";\n\nimport { useAuth } from \"@clerk/nextjs\";\nimport { ConvexReactClient } from \"convex/react\";\nimport { ConvexProviderWithClerk } from \"convex/react-clerk\";\nexport default function Provider({\n  children\n}) {\n  const convex = new ConvexReactClient(process.env.NEXT_PUBLIC_CONVEX_URL);\n  return <ConvexProviderWithClerk client={convex} useAuth={useAuth}>\n        {children}\n    </ConvexProviderWithClerk>;\n}"],"names":[],"mappings":";;;;AAGA;AACA;AADA;AAKuC;AAJvC;AAFA;AAFA;;;;;AAKe,SAAS,SAAS,EAC/B,QAAQ,EACT;IACC,MAAM,SAAS,IAAI,2JAAA,CAAA,oBAAiB;IACpC,qBAAO,6LAAC,qLAAA,CAAA,0BAAuB;QAAC,QAAQ;QAAQ,SAAS,qPAAA,CAAA,UAAO;kBACzD;;;;;;AAET;KAPwB"}},
-    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

@@ -187,7 +187,7 @@ export default function LeadGenerationCaseStudy() {
                 <CardContent className="p-6">
                   <Quote className="h-8 w-8 text-purple-500 mb-4" />
                   <blockquote className="text-lg italic mb-6">
-                    "Our lead generation was broken. We were spending too much to acquire low-quality leads, and our advisors were wasting time chasing prospects who weren't a good fit for our services."
+                  &quot;Our lead generation was broken. We were spending too much to acquire low-quality leads, and our advisors were wasting time chasing prospects who weren&apos;t a good fit for our services. &quot;
                   </blockquote>
                   <div className="flex items-center">
                     <div className="w-12 h-12 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center mr-4">
@@ -283,18 +283,18 @@ export default function LeadGenerationCaseStudy() {
                       <div className="flex">
                         <div className="bg-purple-100 dark:bg-purple-900/30 text-gray-800 dark:text-gray-200 rounded-lg py-2 px-3 max-w-[80%]">
                           <p className="text-sm font-medium">AI Voice Agent</p>
-                          <p className="text-sm">Hello, this is Alex from FinServe Capital. We help people like you make sure they're on track for a comfortable retirement. Do you have a few minutes to chat about your retirement planning?</p>
+                          <p className="text-sm">Hello, this is Alex from FinServe Capital. We help people like you make sure they&apos;re on track for a comfortable retirement. Do you have a few minutes to chat about your retirement planning?</p>
                         </div>
                       </div>
                       <div className="flex justify-end">
                         <div className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-lg py-2 px-3 max-w-[80%]">
-                          <p className="text-sm">I'm actually interested in that, but I'm not sure if I have enough saved to work with a financial advisor.</p>
+                          <p className="text-sm">I&apos;m actually interested in that, but I&apos;m not sure if I have enough saved to work with a financial advisor.</p>
                         </div>
                       </div>
                       <div className="flex">
                         <div className="bg-purple-100 dark:bg-purple-900/30 text-gray-800 dark:text-gray-200 rounded-lg py-2 px-3 max-w-[80%]">
                           <p className="text-sm font-medium">AI Voice Agent</p>
-                          <p className="text-sm">That's a common concern. Many of our clients felt the same way before working with us. Actually, we work with clients at various stages of their retirement journey. If you don't mind me asking, are you currently contributing to any retirement accounts like a 401(k) or IRA?</p>
+                          <p className="text-sm">That&apos;s a common concern. Many of our clients felt the same way before working with us. Actually, we work with clients at various stages of their retirement journey. If you don&apos;t mind me asking, are you currently contributing to any retirement accounts like a 401(k) or IRA?</p>
                         </div>
                       </div>
                       <div className="flex justify-end">
@@ -305,7 +305,7 @@ export default function LeadGenerationCaseStudy() {
                       <div className="flex">
                         <div className="bg-purple-100 dark:bg-purple-900/30 text-gray-800 dark:text-gray-200 rounded-lg py-2 px-3 max-w-[80%]">
                           <p className="text-sm font-medium">AI Voice Agent</p>
-                          <p className="text-sm">That's excellent! You're actually in a great position to benefit from our services. Many of our advisors specialize in helping clients maximize their retirement accounts and develop strategies to ensure those funds last throughout retirement. Would you be interested in a complimentary retirement review with one of our advisors to see if we might be a good fit?</p>
+                          <p className="text-sm">That&apos;s excellent! You&apos;re actually in a great position to benefit from our services. Many of our advisors specialize in helping clients maximize their retirement accounts and develop strategies to ensure those funds last throughout retirement. Would you be interested in a complimentary retirement review with one of our advisors to see if we might be a good fit?</p>
                         </div>
                       </div>
                     </div>
@@ -419,7 +419,7 @@ export default function LeadGenerationCaseStudy() {
                       </div>
                       <div className="mt-6 pt-4 border-t border-gray-200 dark:border-gray-700 flex justify-between items-center">
                         <div className="text-sm text-gray-500 dark:text-gray-400">
-                          Today's qualified leads: <span className="font-bold text-purple-600 dark:text-purple-400">27</span>
+                          Today&apos;s qualified leads: <span className="font-bold text-purple-600 dark:text-purple-400">27</span>
                         </div>
                         <Button variant="outline" size="sm">View All Leads</Button>
                       </div>
@@ -446,7 +446,7 @@ export default function LeadGenerationCaseStudy() {
                       </div>
                       <div className="flex items-start">
                         <CheckCircle className="h-5 w-5 text-green-500 mt-1 mr-3 flex-shrink-0" />
-                        <p className="text-gray-600 dark:text-gray-300">Custom targeting parameters aligned with FinServe's ideal client profile</p>
+                        <p className="text-gray-600 dark:text-gray-300">Custom targeting parameters aligned with FinServe&apos;s ideal client profile</p>
                       </div>
                       <div className="flex items-start">
                         <CheckCircle className="h-5 w-5 text-green-500 mt-1 mr-3 flex-shrink-0" />
@@ -477,7 +477,7 @@ export default function LeadGenerationCaseStudy() {
                             </div>
                             <div>
                               <div className="flex justify-between text-sm mb-1">
-                                <span>High Net Worth (>$1M)</span>
+                                <span>High Net Worth ({'>'}$1M)</span>
                                 <span className="font-medium text-green-500">38% Conv. Rate</span>
                               </div>
                               <div className="h-2 w-full bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
@@ -819,7 +819,7 @@ export default function LeadGenerationCaseStudy() {
             <div className="relative z-10">
               <Quote className="h-16 w-16 mx-auto mb-6 opacity-20" />
               <blockquote className="text-2xl md:text-3xl font-medium italic text-center mb-8 max-w-3xl mx-auto">
-                "NovaFlow's AI voice agents have completely transformed our lead generation process. Our advisors now spend their time with qualified prospects who are ready to engage, rather than cold calling for hours. The ROI has been extraordinary."
+              &quot;NovaFlow&apos;s AI voice agents have completely transformed our lead generation process. Our advisors now spend their time with qualified prospects who are ready to engage, rather than cold calling for hours. The ROI has been extraordinary. &quot;
               </blockquote>
               <div className="flex flex-col items-center">
                 <div className="w-16 h-16 bg-white/20 rounded-full mb-4 flex items-center justify-center">
@@ -888,7 +888,7 @@ export default function LeadGenerationCaseStudy() {
               <Sparkles className="h-8 w-8 text-purple-600 dark:text-purple-400 mb-4" />
               <h3 className="text-xl font-bold mb-6">Free Lead Generation Assessment</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Get a personalized analysis of how NovaFlow's AI lead generation solutions could impact your business.
+                Get a personalized analysis of how NovaFlow&apos;s AI lead generation solutions could impact your business.
               </p>
               <div className="space-y-4 mb-6">
                 <div className="p-4 bg-gray-50 dark:bg-gray-900 rounded-lg">

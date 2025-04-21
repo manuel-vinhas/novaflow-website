@@ -126,7 +126,7 @@ export default function ValueProposition() {
         >
           <h3 className="text-2xl font-semibold mb-4">Our Unique Approach</h3>
           <p className="max-w-3xl mx-auto text-white/90">
-            At NovaFlow, we don't offer generic AI solutions. We develop custom-tailored AI agents optimized for your 
+            At NovaFlow, we don&apos;t offer generic AI solutions. We develop custom-tailored AI agents optimized for your 
             specific industry, business processes, and operational needs. Every solution is built from the ground up to 
             transform your unique challenges into competitive advantages.
           </p>
